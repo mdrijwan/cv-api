@@ -1,0 +1,26 @@
+{
+  "name": "task1-cv",
+  "version": "1.0.0",
+  "description": "REST API with CRUD Operation for the JSON CV",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "show": "resume serve",
+    "save": "resume export rijwan --theme flat --format html",
+    "save-pdf": "resume export rijwan --theme classy --format pdf"
+  },
+  "author": "Md Rijwan Razzaq Matin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.0",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mongoose": "^4.10.8",
+    "resume-cli": "^0.4.19",
+    "resume-theme-classy": "0.0.8",
+    "resume-theme-flat": "0.0.9"
+  }
+}

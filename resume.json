@@ -1,0 +1,159 @@
+{
+  "basics": {
+    "name": "Md Rijwan Razzaq Matin",
+    "label": "Programmer",
+    "picture": "",
+    "email": "mrrmmonty@gmail.com",
+    "phone": "+601139866690",
+    "summary": "Passionate Developer with added experience in Advertising and Promotional Marketing. Playing with new and exciting tools, experienced in JavaScript and NodeJS; eager to learn and explore cutting-edge technologies.",
+    "location": {
+      "address": "403A, Palm Spring Condominium",
+      "postalCode": "47810",
+      "city": "Petaling Jaya",
+      "region": "Selangor",
+      "countryCode": "Malaysia"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "mdrijwan",
+        "url": "https://github.com/mdrijwan"
+      },
+      {
+        "network": "linkedin",
+        "username": "mdrijwan",
+        "url": "https://www.linkedin.com/in/mdrijwan/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "iProperty.com",
+      "position": "Software Developer",
+      "website": "http://iproperty.com.my",
+      "startDate": "2017-08-08",
+      "summary": "Asia’s leading online advertising business serving the real estate industry.",
+      "highlights": [
+        "Developing RESTful microservices using TypeScript.",
+        "Building companion APIs for all the country back-ends"
+      ]
+    },
+    {
+      "company": "iflix",
+      "position": "Software Engineer",
+      "website": "http://iflix.com",
+      "startDate": "2016-06-01",
+      "endDate": "2017-07-31",
+      "summary": "Asia's biggest subscription based video-on-demand service focused on emerging markets.",
+      "highlights": [
+        "Creating new libraries for node_modules and publish in npm.",
+        "Creating Lambda functions and publishing in AWS.",
+        "Deploying functions and micro services serverlessly."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Abertay University",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "endDate": "2016-12-31",
+      "major": "Software Engineering",
+      "gpa": "3.7",
+      "achievment": "First Class Honors with Distinction"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List Award",
+      "awarder": "Abertay University"
+    },
+    {
+      "title": "Certified Ethical Hacker",
+      "awarder": "EC-Council"
+    },
+    {
+      "title": "Oracle SQL Developer",
+      "awarder": "Oracle"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Database Design",
+      "keywords": [
+        "SQL",
+        "ERD",
+        "Oracle"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "PHP",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "OS",
+      "keywords": [
+        "OSX",
+        "Windows",
+        "Debian",
+        "Ubuntu"
+      ]
+    },
+    {
+      "name": "Platform",
+      "keywords": [
+        "AWS",
+        "NodeJS",
+        "GitHub",
+        "Serverless"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Bengali",
+      "fluency": "Native"
+    },
+    {
+      "language": "Bahasa Malay",
+      "fluency": "Basic"
+    },
+    {
+      "language": "Arabic",
+      "fluency": "Read and Write"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Lyricist",
+        "Composer",
+        "Guitarist"
+      ]
+    },
+    {
+      "name": "Photography",
+      "keywords": [
+        "Documentary",
+        "People",
+        "Portrait"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Edwin Fong",
+      "reference": "It is my pleasure to recommend Rijwan, his performance working as a software developer for iProperty.com proved that he will be a valuable addition to any company."
+    }
+  ]
+}

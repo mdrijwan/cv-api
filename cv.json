@@ -1,0 +1,136 @@
+{
+  "basics": {
+    "name": "Md Rijwan Razzaq Matin",
+    "label": "Software Engineer",
+    "email": "mrrmmonty@gmail.com",
+    "phone": "+601139866690",
+    "summary": "Passionate Developer with added experience in Advertising and Promotional Marketing. Playing with new and exciting tools, experienced in JavaScript and NodeJS; eager to learn and explore cutting-edge technologies.",
+    "location": {
+      "address": "Palm Spring Condominium",
+      "postalCode": "47810",
+      "city": "Petaling Jaya",
+      "state": "Selangor",
+      "countryCode": "MY"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "mdrijwan",
+        "url": "https://github.com/mdrijwan"
+      },
+      {
+        "network": "linkedin",
+        "username": "mdrijwan",
+        "url": "https://www.linkedin.com/in/mdrijwan/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "iProperty.com",
+      "position": "Software Developer",
+      "website": "http://iproperty.com.my",
+      "summary": "Asia’s leading online advertising business serving the real estate industry.",
+      "highlights": [
+        "Developing RESTful microservices using TypeScript.",
+        "Building companion APIs for all the country back-ends"
+      ]
+    },
+    {
+      "company": "iflix",
+      "position": "Software Engineer",
+      "website": "http://iflix.com",
+      "summary": "Asia's biggest subscription based video-on-demand service focused on emerging markets.",
+      "highlights": [
+        "Creating new libraries for node_modules and publish in npm.",
+        "Creating Lambda functions and publishing in AWS.",
+        "Deploying functions and micro services serverlessly."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Abertay University",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "major": "Software Engineering",
+      "gpa": "3.7",
+      "achievment": "First Class Honors with Distinction"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List Award",
+      "awarder": "Abertay University"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified Ethical Hacker",
+      "issuer": "EC-Council"
+    },
+    {
+      "name": "Oracle SQL Developer",
+      "issuer": "Oracle"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "PHP",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Database Design",
+      "keywords": [
+        "SQL",
+        "Oracle"
+      ]
+    },
+    {
+      "name": "IDE",
+      "keywords": [
+        "Eclipse",
+        "WebStorm",
+        "Dreamweaver",
+        "SQL Developer",
+        "Visual Studio"
+      ]
+    },
+    {
+      "name": "Platform",
+      "keywords": [
+        "AWS",
+        "NodeJS",
+        "GitHub",
+        "Serverless"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Photography",
+      "keywords": [
+        "Documentary",
+        "People",
+        "Portrait"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Edwin Fong",
+      "reference": "It is my pleasure to recommend Rijwan, his performance working as a software developer for iProperty.com proved that he will be a valuable addition to any company."
+    }
+  ]
+}
