@@ -46,3 +46,11 @@ exports.delete_a_cv = function(req:any, res:any) {
     res.json({ message: 'CV successfully deleted' });
   });
 };
+
+exports.delete_all_cv = function(req:any, res:any) {
+  cv.remove(function(err:any, cvs:any) {
+    if (err)
+      res.send(err);
+    res.json({ message: 'All CV successfully deleted' });
+  });
+};

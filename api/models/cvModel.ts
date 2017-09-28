@@ -20,9 +20,9 @@ var cvSchema = new Schema({
   status: {
     type: [{
       type: String,
-      enum: ['pending', 'rejected', 'hired']
+      enum: ['available', 'not available', 'rejected', 'hired']
     }],
-    default: ['pending']
+    default: ['available']
   }
 });
 
