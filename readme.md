@@ -1,7 +1,7 @@
 # CV-Api
-A sample app that demonstrates a restful API with CRUD Operations to consume football-data RESTful API
+A sample app that demonstrates a restful API with CRUD Operations to response with `JSON` format
 
-Task A
+- Tasks
 1 )
 Create a CV in Json
 2 )
@@ -15,23 +15,31 @@ Convert the REST API into TypeScript
 
 Clone the project repository by running the command below if you use SSH
 
-`git clone git@github.com:mdrijwan/cv-api.git`
+```
+git clone git@github.com:mdrijwan/cv-api.git
+```
 
 If you use https, use this instead
 
-`git clone https://github.com/mdrijwan/cv-api.git`
+```
+git clone https://github.com/mdrijwan/cv-api.git
+```
 
 Run the command below to install NPM dependencies
 
-`npm install`
+```
+npm install
+```
 
 And
 
-`npm run start`
+```npm run start
+```
 
 to start the app and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to see the app in action.
 
-`npm run show`
+```npm run show
+```
 
 to start a web server that serves the cv.json. Visit [http://127.0.0.1:4000/](http://127.0.0.1:4000/) to see the CVp in html
 
@@ -39,15 +47,21 @@ to start a web server that serves the cv.json. Visit [http://127.0.0.1:4000/](ht
 
 To get the ts converted project switch to the `dev-ts` branch
 
-`git checkout dev-ts`
+```
+git checkout dev-ts
+```
 
 Compile the `TypeScript` files to `JavaScript`
 
-`npm run complie`
+```
+npm run complie
+```
 
 Then
 
-`npm run start`
+```
+npm run start
+```
 
 to start the app and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to see the app in action.
 
