@@ -75,21 +75,21 @@ to start the app and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to s
 
 #### The CRUD operations
 
-**Methods**
+***Methods***
 - GET/
   + GET/
-  + GET/cv
-  + GET/cv/cvId
+  + GET/cv `(to see the whole list of CVs)`
+  + GET/cv/cvId `(to see a specific CV)`
  
 - POST/
-  + POST/cv
+  + POST/cv `(to create a CV)`
    
 - PUT/
-  + PUT/cv/cvId
+  + PUT/cv/cvId `(to update a CV)`
   
 - DELETE/
-  + GET/cv
-  + GET/cv/cvId
+  + DELETE/cv `(to delete the whole list of CVs)`
+  + DELETE/cv/cvId `(to delete a specific CV)`
 
 ##### Focus areas for learning
 
