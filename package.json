@@ -2,7 +2,7 @@
   "name": "cvapi",
   "version": "1.0.0",
   "description": "REST API with CRUD Operation for the JSON CV",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
     "show": "resume serve",
@@ -11,6 +11,11 @@
     "zip": "zip -r ../cvApi.zip *",
     "test": "mocha"
   },
+  "keywords": [
+    "api",
+    "crud",
+    "cv"
+  ],
   "author": "Md Rijwan Razzaq Matin",
   "license": "ISC",
   "devDependencies": {
