@@ -1,5 +1,5 @@
 # CV-Api
-A sample app that demonstrates a restful API with CRUD Operations to response with `JSON` format
+A sample app that demonstrates a restful API with CRUD operations to response with `JSON` format
 
 **Tasks**
 - 1 )
@@ -73,8 +73,25 @@ npm run start
 
 to start the app and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to see the app in action.
 
+#### The CRUD operations
 
-#### Focus areas for learning
+**Methods**
+- GET/
+  + GET/
+  + GET/cv
+  + GET/cv/cvId
+ 
+- POST/
+  + POST/cv
+   
+- PUT/
+  + PUT/cv/cvId
+  
+- DELETE/
+  + GET/cv
+  + GET/cv/cvId
+
+##### Focus areas for learning
 
 - Dependencies Injection
   + inheritance
