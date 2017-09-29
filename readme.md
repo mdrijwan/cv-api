@@ -53,13 +53,19 @@ To get the ts converted project switch to the `dev-ts` branch
 git checkout dev-ts
 ```
 
-Compile the `TypeScript` files to `JavaScript`
+Install NPM dependencies
+
+```
+npm install
+```
+
+Then compile the `TypeScript` files to `JavaScript`
 
 ```
 npm run complie
 ```
 
-Then
+And
 
 ```
 npm run start
@@ -70,19 +76,18 @@ to start the app and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to s
 
 #### Focus areas for learning
 
-Dependencies Injection
-- inheritance
-  + always create interface first only then class
+- Dependencies Injection
+  > inheritance
+    + always create interface first only then class
 
-OOP (Object Oriented Programming)
-- extends and implements
+- OOP (Object Oriented Programming)
+  > extends and implements
 
-IOC (Inversion of Control)
-- polymorphism
-- interface
+- IOC (Inversion of Control)
+  > polymorphism
+  > interface
 
-TypeScript
-Unit Testing
-- mocha chai
-
-Note: don't git rebase
+- TypeScript
+- Unit Testing
+  > mocha chai
+>> Note: don't git rebase
