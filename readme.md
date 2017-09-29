@@ -77,7 +77,7 @@ to start the app and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to s
 
 ***Methods***
 - GET/
-  + GET/
+  + GET/ `(to see my CV)`
   + GET/cv `(to see the whole list of CVs)`
   + GET/cv/cvId `(to see a specific CV)`
  
