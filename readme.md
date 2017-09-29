@@ -45,6 +45,37 @@ npm run show
 
 to start a web server that serves the cv.json. Visit [http://127.0.0.1:4000/](http://127.0.0.1:4000/) to see the CV in `html` format
 
+for the CRUD operation, the database needs to be started first.
+
+```
+sudo service mongod start
+```
+>Note:
+- To verify that MongoDB has started successfully
+Verify that the mongod process has started successfully by checking the contents of the log file at `/var/log/mongodb/mongod.log` for a line reading
+```
+[initandlisten] waiting for connections on port <port>
+where <port> is the port configured in /etc/mongod.conf, 27017 by default.
+```
+- If mongodb breaks here’s the fix
+```
+sudo systemctl enable mongod
+```
+- To see collections of data
+Type `mongo`
+
+To show all the databases
+> show dbs
+
+- To go inside a db
+`use <db name>`
+
+- To see the tables inside the db
+`show collections`
+
+- Choose your collection and type the following to see all contents of that collection:
+`db.<collectionName>.find()`
+
 ### Converting the project to typescript
 
 To get the ts converted project switch to the `dev-ts` branch
