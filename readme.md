@@ -77,17 +77,18 @@ to start the app and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to s
 #### Focus areas for learning
 
 - Dependencies Injection
-  > inheritance
+  + inheritance
     + always create interface first only then class
 
 - OOP (Object Oriented Programming)
-  > extends and implements
+  + extends and implements
 
 - IOC (Inversion of Control)
-  > polymorphism
-  > interface
+  + polymorphism
+  + interface
 
 - TypeScript
 - Unit Testing
-  > mocha chai
->> Note: don't git rebase
+  + mocha and chai
+
+> Note: don't git rebase
