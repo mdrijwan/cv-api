@@ -92,7 +92,7 @@
         "HTML",
         "CSS",
         "PHP",
-        "Javascript"
+        "JavaScript"
       ]
     },
     {
@@ -100,8 +100,7 @@
       "keywords": [
         "OSX",
         "Windows",
-        "Debian",
-        "Ubuntu"
+        "Linux"
       ]
     },
     {
@@ -109,8 +108,23 @@
       "keywords": [
         "AWS",
         "NodeJS",
-        "GitHub",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Framework",
+      "keywords": [
+        "Express",
+        "Agile",
         "Serverless"
+      ]
+    },
+    {
+      "name": "IDE",
+      "keywords": [
+        "VSCode",
+        "WebStorm",
+        "Atom"
       ]
     }
   ],
