@@ -43,7 +43,7 @@ to start the app and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to s
 npm run show
 ```
 
-to start a web server that serves the cv.json. Visit [http://127.0.0.1:4000/](http://127.0.0.1:4000/) to see the CVp in html
+to start a web server that serves the cv.json. Visit [http://127.0.0.1:4000/](http://127.0.0.1:4000/) to see the CV in `html` format
 
 ### Converting the project to typescript
 
