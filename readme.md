@@ -62,19 +62,19 @@ where <port> is the port configured in /etc/mongod.conf, 27017 by default.
 sudo systemctl enable mongod
 ```
 - To see collections of data
-+ Type `mongo`
+  + Type `mongo`
 
 - To show all the databases
-+ `show dbs`
+  + `show dbs`
 
 - To go inside a db
-+ `use <db name>`
+  + `use <db name>`
 
 - To see the tables inside the db
-+ `show collections`
+  + `show collections`
 
 - Choose your collection and type the following to see all contents of that collection:
-+ `db.<collectionName>.find()`
+  + `db.<collectionName>.find()`
 
 ### Converting the project to typescript
 
