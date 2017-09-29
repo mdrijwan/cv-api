@@ -1,14 +1,14 @@
 # CV-Api
 A sample app that demonstrates a restful API with CRUD Operations to response with `JSON` format
 
-- Tasks
-1 )
+**Tasks**
+- 1 )
 Create a CV in Json
-2 )
+- 2 )
 Create an API that output
-3 )
+- 3 )
 Create REST API with CRUD Operation for JSON CV
-4 )
+- 4 )
 Convert the REST API into TypeScript
 
 ## Getting Started
@@ -33,12 +33,14 @@ npm install
 
 And
 
-```npm run start
+```
+npm run start
 ```
 
 to start the app and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to see the app in action.
 
-```npm run show
+```
+npm run show
 ```
 
 to start a web server that serves the cv.json. Visit [http://127.0.0.1:4000/](http://127.0.0.1:4000/) to see the CVp in html
