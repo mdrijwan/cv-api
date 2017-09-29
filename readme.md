@@ -27,12 +27,32 @@ Run the command below to install NPM dependencies
 
 And
 
-`npm start`
+`npm run start`
+
+to start the app and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to see the app in action.
+
+`npm run show`
+
+to start a web server that serves the cv.json. Visit [http://127.0.0.1:4000/](http://127.0.0.1:4000/) to see the CVp in html
+
+### Converting the project to typescript
+
+To get the ts converted project switch to the `dev-ts` branch
+
+`git checkout dev-ts`
+
+Compile the `TypeScript` files to `JavaScript`
+
+`npm run complie`
+
+Then
+
+`npm run start`
 
 to start the app and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to see the app in action.
 
 
-Focus areas for learning
+#### Focus areas for learning
 
 Dependencies Injection
 - inheritance
