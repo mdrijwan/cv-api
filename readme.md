@@ -96,7 +96,7 @@ Then compile the `TypeScript` files to `JavaScript`
 npm run complie
 ```
 
-And
+And start the server
 
 ```
 npm run start
@@ -122,7 +122,19 @@ to start the app and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to s
   + DELETE/cv `(to delete the whole list of CVs)`
   + DELETE/cv/cvId `(to delete a specific CV)`
 
-##### Focus areas for learning
+##### For Load Testing
+Install `seige` in your system
+
+- For `GET/` method (Example)
+```
+siege http://localhost:3000/cv -t10s
+```
+- For `POST/` method (Example)
+```
+siege --concurrent=100 --content-type="application/json" 'http://localhost:3000/cv POST {"name":"value1", "email":"value2"}' -t10s
+```
+
+###### Focus areas for learning
 
 - Dependencies Injection
   + inheritance
