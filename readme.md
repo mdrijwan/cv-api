@@ -1,20 +1,35 @@
+# CV-Api
+A sample app that demonstrates a restful API with CRUD Operations to consume football-data RESTful API
+
 Task A
 1 )
-Create CV in Json
-Create an API that output
+Create a CV in Json
 2 )
-Create REST API with CRUD Operation for the JSON CV
+Create an API that output
 3 )
-Convert the REST API into TypeScript
+Create REST API with CRUD Operation for JSON CV
 4 )
-Create DIR list of CVs with CRUD & RESTful
-Optimize the API to handle 100/s requests
+Convert the REST API into TypeScript
 
-Task B
-Create a REST API that output and store data from CV API
+## Getting Started
 
-Task C
-Create a tic-tac-toe game using JS that will never lose.
+Clone the project repository by running the command below if you use SSH
+
+`git clone git@github.com:mdrijwan/cv-api.git`
+
+If you use https, use this instead
+
+`git clone https://github.com/mdrijwan/cv-api.git`
+
+Run the command below to install NPM dependencies
+
+`npm install`
+
+And
+
+`npm start`
+
+to start the app and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to see the app in action.
 
 
 Focus areas for learning
