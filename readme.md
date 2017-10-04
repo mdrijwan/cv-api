@@ -31,6 +31,12 @@ Run the command below to install NPM dependencies
 npm install
 ```
 
+Then compile the `TypeScript` files to `JavaScript`
+
+```
+npm run complie
+```
+
 And start the server
 
 ```
@@ -75,34 +81,6 @@ sudo systemctl enable mongod
 
 - Choose your collection and type the following to see all contents of that collection:
   + `db.<collectionName>.find()`
-
-### Converting the project to typescript
-
-To get the ts converted project switch to the `dev-ts` branch
-
-```
-git checkout dev-ts
-```
-
-Install NPM dependencies
-
-```
-npm install
-```
-
-Then compile the `TypeScript` files to `JavaScript`
-
-```
-npm run complie
-```
-
-And start the server
-
-```
-npm run start
-```
-
-to start the app and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to see the app in action.
 
 #### The CRUD operations
 
