@@ -1,26 +1,44 @@
 {
-  "name": "task1-cv",
+  "name": "cvapi",
   "version": "1.0.0",
   "description": "REST API with CRUD Operation for the JSON CV",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon app.js",
     "show": "resume serve",
     "save": "resume export rijwan --theme flat --format html",
-    "save-pdf": "resume export rijwan --theme classy --format pdf"
+    "compile": "tsc",
+    "zip": "zip -r ../cvApi.zip *",
+    "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdrijwan/cv-api"
+  },
+  "keywords": [
+    "api",
+    "crud",
+    "cv"
+  ],
   "author": "Md Rijwan Razzaq Matin",
   "license": "ISC",
   "devDependencies": {
+    "@types/body-parser": "^1.16.5",
+    "@types/chai": "^4.0.4",
+    "@types/express": "^4.0.37",
+    "@types/mocha": "^2.2.43",
+    "@types/mongoose": "^4.7.23",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
     "nodemon": "^1.12.0",
+    "tslint": "^5.7.0",
     "typescript": "^2.5.2"
   },
   "dependencies": {
     "body-parser": "^1.18.1",
     "express": "^4.15.4",
-    "mongoose": "^4.10.8",
+    "mongoose": "^4.9.9",
     "resume-cli": "^0.4.19",
-    "resume-theme-classy": "0.0.8",
     "resume-theme-flat": "0.0.9"
   }
 }
