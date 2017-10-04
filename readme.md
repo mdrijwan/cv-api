@@ -37,7 +37,13 @@ Then compile the `TypeScript` files to `JavaScript`
 npm run complie
 ```
 
-And start the server
+To test the projct
+
+```
+npm run test
+```
+
+Then start the server
 
 ```
 npm run start
