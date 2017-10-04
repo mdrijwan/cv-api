@@ -9,12 +9,3 @@ describe('CVapi Port', () => {
         chai_1.expect(port).to.equal(3000);
     });
 });
-// var calculator = require('../index');
-// describe('calculator', function() {
-//     describe('add function', function() {
-//         it('adds numbers', function () {
-//             var result = calculator.add(1, 1);
-//             assert.equal(result, 2);
-//         });
-//     });
-// }); 
