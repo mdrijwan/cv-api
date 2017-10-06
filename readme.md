@@ -117,8 +117,11 @@ siege http://localhost:3000/cv -t10s
 ```
 siege --concurrent=100 --content-type="application/json" 'http://localhost:3000/cv POST {"name":"value1", "email":"value2"}' -t10s
 ```
+>Note:
+A [proxy api](https://github.com/mdrijwan/cv-api-proxy) for this cv-api is being built, now in progress.
 
-###### Focus areas for learning
+>Personal Notes
+####### Focus areas for learning
 
 - Dependencies Injection
   + inheritance
