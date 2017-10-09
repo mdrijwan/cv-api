@@ -120,8 +120,7 @@ siege --concurrent=100 --content-type="application/json" 'http://localhost:3000/
 >Note:
 A [proxy api](https://github.com/mdrijwan/cv-api-proxy) for this cv-api is being built, now in progress.
 
-###### Personal Notes
-> Focus areas for learning
+###### Personal Notes (Focus areas for learning)
 
 >- Dependencies Injection
 >    + inheritance
@@ -137,5 +136,3 @@ A [proxy api](https://github.com/mdrijwan/cv-api-proxy) for this cv-api is being
 >- TypeScript
 >- Unit Testing
 >     + mocha and chai
-
-> Note: don't git rebase
