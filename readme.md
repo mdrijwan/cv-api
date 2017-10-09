@@ -43,21 +43,21 @@ To test the projct
 npm run test
 ```
 
-Then start the server
+Then start the server and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to see the app in action.
 
 ```
 npm run start
 ```
 
-to start the app and visit [http://127.0.0.1:3000/](http://127.0.0.1:3000/) to see the app in action.
+To start a web server that serves the cv.json. Visit [http://127.0.0.1:4000/](http://127.0.0.1:4000/) to see the CV in `html` format
 
 ```
 npm run show
 ```
 
-to start a web server that serves the cv.json. Visit [http://127.0.0.1:4000/](http://127.0.0.1:4000/) to see the CV in `html` format
+>For the CRUD operation, the database needs to be started first.
 
-for the CRUD operation, the database needs to be started first.
+Start the database
 
 ```
 sudo service mongod start
