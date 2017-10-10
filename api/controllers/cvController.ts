@@ -51,6 +51,6 @@ exports.delete_all_cv = function(req:any, res:any) {
   cv.remove(function(err:any, cvs:any) {
     if (err)
       res.send(err);
-    res.json({ message: 'All CV successfully deleted' });
+    res.json({ message: 'All CVs are successfully deleted' });
   });
 };
