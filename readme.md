@@ -120,6 +120,9 @@ siege --concurrent=100 --content-type="application/json" 'http://localhost:3000/
 >Note:
 A [proxy api](https://github.com/mdrijwan/cv-api-proxy) for this cv-api is being built, now in progress.
 
+[![Build status](https://badge.buildkite.com/48efec850cb5265ac7259acd4146ef64855a7d77cd7fef2ce0.svg)](https://buildkite.com/rr/cv-api)
+
+
 ###### Personal Notes (Focus areas for learning)
 
 >- Dependencies Injection
