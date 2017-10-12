@@ -1,0 +1,3 @@
+steps:
+  - label: Example Unit Test
+    command: npm test
