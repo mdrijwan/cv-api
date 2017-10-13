@@ -77,13 +77,24 @@
       "awarder": "Oracle"
     }
   ],
+  "certifications": [
+    {
+      "name": "Certified Ethical Hacker",
+      "issuer": "EC-Council"
+    },
+    {
+      "name": "Oracle SQL Developer",
+      "issuer": "Oracle"
+    }
+  ],
   "skills": [
     {
       "name": "Database Design",
       "keywords": [
         "SQL",
         "ERD",
-        "Oracle"
+        "Oracle",
+        "MongoDB"
       ]
     },
     {
@@ -124,7 +135,8 @@
       "keywords": [
         "VSCode",
         "WebStorm",
-        "Atom"
+        "Atom",
+        "Dreamweaver"
       ]
     }
   ],

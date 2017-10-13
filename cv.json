@@ -1,16 +1,17 @@
 {
   "basics": {
     "name": "Md Rijwan Razzaq Matin",
-    "label": "Software Engineer",
+    "label": "Programmer",
+    "picture": "",
     "email": "mrrmmonty@gmail.com",
     "phone": "+601139866690",
     "summary": "Passionate Developer with added experience in Advertising and Promotional Marketing. Playing with new and exciting tools, experienced in JavaScript and NodeJS; eager to learn and explore cutting-edge technologies.",
     "location": {
-      "address": "Palm Spring Condominium",
+      "address": "403A, Palm Spring Condominium",
       "postalCode": "47810",
       "city": "Petaling Jaya",
-      "state": "Selangor",
-      "countryCode": "MY"
+      "region": "Selangor",
+      "countryCode": "Malaysia"
     },
     "profiles": [
       {
@@ -30,6 +31,7 @@
       "company": "iProperty.com",
       "position": "Software Developer",
       "website": "http://iproperty.com.my",
+      "startDate": "2017-08-08",
       "summary": "Asia’s leading online advertising business serving the real estate industry.",
       "highlights": [
         "Developing RESTful microservices using TypeScript.",
@@ -40,6 +42,8 @@
       "company": "iflix",
       "position": "Software Engineer",
       "website": "http://iflix.com",
+      "startDate": "2016-06-01",
+      "endDate": "2017-07-31",
       "summary": "Asia's biggest subscription based video-on-demand service focused on emerging markets.",
       "highlights": [
         "Creating new libraries for node_modules and publish in npm.",
@@ -53,6 +57,7 @@
       "institution": "Abertay University",
       "area": "Information Technology",
       "studyType": "Bachelor",
+      "endDate": "2016-12-31",
       "major": "Software Engineering",
       "gpa": "3.7",
       "achievment": "First Class Honors with Distinction"
@@ -62,6 +67,14 @@
     {
       "title": "Dean's List Award",
       "awarder": "Abertay University"
+    },
+    {
+      "title": "Certified Ethical Hacker",
+      "awarder": "EC-Council"
+    },
+    {
+      "title": "Oracle SQL Developer",
+      "awarder": "Oracle"
     }
   ],
   "certifications": [
@@ -76,29 +89,29 @@
   ],
   "skills": [
     {
+      "name": "Database Design",
+      "keywords": [
+        "SQL",
+        "ERD",
+        "Oracle",
+        "MongoDB"
+      ]
+    },
+    {
       "name": "Web Development",
       "keywords": [
         "HTML",
         "CSS",
         "PHP",
-        "Javascript"
+        "JavaScript"
       ]
     },
     {
-      "name": "Database Design",
+      "name": "OS",
       "keywords": [
-        "SQL",
-        "Oracle"
-      ]
-    },
-    {
-      "name": "IDE",
-      "keywords": [
-        "Eclipse",
-        "WebStorm",
-        "Dreamweaver",
-        "SQL Developer",
-        "Visual Studio"
+        "OSX",
+        "Windows",
+        "Linux"
       ]
     },
     {
@@ -106,8 +119,24 @@
       "keywords": [
         "AWS",
         "NodeJS",
-        "GitHub",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Framework",
+      "keywords": [
+        "Express",
+        "Agile",
         "Serverless"
+      ]
+    },
+    {
+      "name": "IDE",
+      "keywords": [
+        "VSCode",
+        "WebStorm",
+        "Atom",
+        "Dreamweaver"
       ]
     }
   ],
@@ -115,9 +144,29 @@
     {
       "language": "English",
       "fluency": "Fluent"
+    },
+    {
+      "language": "Bengali",
+      "fluency": "Native"
+    },
+    {
+      "language": "Bahasa Malay",
+      "fluency": "Basic"
+    },
+    {
+      "language": "Arabic",
+      "fluency": "Read and Write"
     }
   ],
   "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Lyricist",
+        "Composer",
+        "Guitarist"
+      ]
+    },
     {
       "name": "Photography",
       "keywords": [
