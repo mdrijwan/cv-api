@@ -118,7 +118,7 @@ siege http://localhost:3000/cv -t10s
 siege --concurrent=100 --content-type="application/json" 'http://localhost:3000/cv POST {"name":"value1", "email":"value2"}' -t10s
 ```
 >Note:
-A [proxy api](https://github.com/mdrijwan/cv-api-proxy) for this cv-api is here.
+A `proxy-api` for this `cv-api` is [here](https://github.com/mdrijwan/cv-api-proxy).
 
 [![Buildkite Build status](https://badge.buildkite.com/48efec850cb5265ac7259acd4146ef64855a7d77cd7fef2ce0.svg)](https://buildkite.com/rr/cv-api)
 [![Travis CI Build Status](https://travis-ci.org/mdrijwan/cv-api.svg?branch=master)](https://travis-ci.org/mdrijwan/cv-api)
