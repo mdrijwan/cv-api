@@ -37,7 +37,7 @@
   "dependencies": {
     "body-parser": "^1.18.1",
     "express": "^4.15.4",
-    "mongoose": "^4.9.9",
+    "mongoose": "^5.7.5",
     "resume-cli": "^0.4.19",
     "resume-theme-flat": "0.0.9"
   }
