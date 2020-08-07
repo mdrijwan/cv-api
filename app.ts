@@ -1,6 +1,5 @@
 import * as express from "express"
 import * as mongoose from "mongoose"
-import * as bodyParser from "body-parser"
 
 var app = express()
 var port = process.env.PORT || 3000
@@ -11,8 +10,8 @@ var cv = require('./cv')
 require ('mongoose').Promise = global.Promise;
 mongoose.connect('mongodb://localhost/cvdb');
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 var routes = require('./api/routes/cvRoutes');
 routes(app);
