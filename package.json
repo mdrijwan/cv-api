@@ -34,7 +34,7 @@
     "typescript": "^2.9.2"
   },
   "dependencies": {
-    "express": "^4.15.4",
+    "express": "^4.18.2",
     "mongoose": "^5.9.27",
     "resume-cli": "^1.2.8",
     "resume-theme-flat": "0.0.9"
